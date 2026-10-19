@@ -1,0 +1,6 @@
+{
+  "name": "DIEWA - حلول وخدمات رقمية متطورة",
+  "description": "وكالة DIEWA الرائدة في هندسة البرمجيات المتطورة، تصميم واجهات وتجربة المستخدم، وحلول التحول الرقمي للشركات والمؤسسات.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
