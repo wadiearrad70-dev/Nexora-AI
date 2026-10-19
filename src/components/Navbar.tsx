@@ -21,10 +21,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation }) => {
 
   const navLinks = [
     { href: '#services', label: t('الخدمات', 'Services') },
-    { href: '#portfolio', label: t('المشاريع', 'Case Studies') },
-    { href: '#community', label: t('مجتمع AI', 'AI Community') },
-    { href: '#estimator', label: t('حاسبة التكلفة', 'Estimator') },
-    { href: '#faq', label: t('الأسئلة الشائعة', 'FAQ') },
+    { href: '#ai-builder', label: t('صانع المواقع', 'AI Builder') },
+    { href: '#marketplace', label: t('المتجر', 'Store') },
+    { href: '#blog', label: t('المدونة الهندسية', 'Blog') },
+    { href: '#community', label: t('مجتمع AI', 'AI Hub') },
   ];
 
   return (

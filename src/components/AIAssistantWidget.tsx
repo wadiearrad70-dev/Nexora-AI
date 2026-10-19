@@ -50,20 +50,20 @@ export const AIAssistantWidget: React.FC<AIAssistantWidgetProps> = ({
 
   const quickPrompts = [
     {
+      ar: 'أهم مقالات وأبحاث هندسة البرمجيات والتحول الرقمي',
+      en: 'Top engineering & digital transformation articles',
+    },
+    {
+      ar: 'كيف أنشئ موقعاً إلكترونياً من خلال كتابة نص فقط؟',
+      en: 'How to build a website from text using AI?',
+    },
+    {
+      ar: 'كيف أحصل على شهادة معتمدة للانضمام بالذكاء الاصطناعي؟',
+      en: 'How to get an AI accredited certificate to join DIEWA?',
+    },
+    {
       ar: 'رابط جروب واتساب لتطوير الذكاء الاصطناعي',
       en: 'WhatsApp AI Development Group link',
-    },
-    {
-      ar: 'ما هي التكلفة التقديرية لتطوير منصة ويب؟',
-      en: 'What is the estimated cost of a web platform?',
-    },
-    {
-      ar: 'كيف تبدأ خطوة العمل الأولى مع DIEWA؟',
-      en: 'How does onboarding work with DIEWA?',
-    },
-    {
-      ar: 'ما هي التقنيات التي تستخدمونها؟',
-      en: 'What tech stack does DIEWA use?',
     },
   ];
 

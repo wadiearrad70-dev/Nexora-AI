@@ -39,3 +39,33 @@
   border-color: rgba(245, 158, 11, 0.25);
   transform: translateY(-2px);
 }
+
+/* Dedicated print styling for official certificate */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-certificate, #printable-certificate * {
+    visibility: visible;
+  }
+  #printable-certificate {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    border: 3px solid #d97706 !important;
+    background: #090d16 !important;
+    color: #f8fafc !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    margin: 0;
+    padding: 2.5rem;
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+  @page {
+    size: landscape;
+    margin: 0.5cm;
+  }
+}

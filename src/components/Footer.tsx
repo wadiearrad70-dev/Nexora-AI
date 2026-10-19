@@ -58,8 +58,9 @@ export const Footer: React.FC = () => {
             </div>
             <ul className="space-y-2 text-slate-400 text-xs">
               <li><a href="#services" className="hover:text-white transition-colors">{t('تطوير المنصات السحابية', 'Cloud Web Platforms')}</a></li>
+              <li><a href="#marketplace" className="text-amber-400 hover:text-amber-300 transition-colors">{t('المتجر الرقمي والمنتجات', 'Digital Marketplace')}</a></li>
+              <li><a href="#blog" className="hover:text-white transition-colors">{t('المدونة وأبحاث التحول الرقمي', 'Engineering Blog & SEO')}</a></li>
               <li><a href="#services" className="hover:text-white transition-colors">{t('تصميم واجهات UI/UX', 'Product UI/UX Systems')}</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">{t('التجارة الإلكترونية المتطورة', 'Headless E-Commerce')}</a></li>
               <li><a href="#services" className="hover:text-white transition-colors">{t('أتمتة الأعمال والذكاء الاصطناعي', 'Process Automation & AI')}</a></li>
               <li><a href="#community" className="text-emerald-400 hover:text-emerald-300 transition-colors flex items-center gap-1">
                 <span>{t('مجتمع واتساب للـ AI', 'WhatsApp AI Community')}</span>
